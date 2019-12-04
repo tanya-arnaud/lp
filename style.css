@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Alatsi|Roboto&display=swap");
+
+@import	url("components/container.css");
+@import	url("components/banner.css");
+@import url("components/button.css");
+
+body {
+	font-family: 'Roboto';
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+}
+h1 {
+	font-family: 'Alatsi';
+	font-weight: bold;
+	font-style: 120px;
+	font-size: 64px;
+	color: rgb(255, 87, 51);
+}
+a {
+	text-decoration: none;
+	font-weight: lighter;
+}
+h2 {
+	font-style: italic;
+}
+h3 {
+	font-size: 28px;
+	font-weight: 900;
+	width: 280px;
+	border: 1px solid #2f2e2f;
+	text-align: justify;
+	text-align: center;
+	margin: 0.67em 0;
+	font-weight: 900;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 7px 16px;
+}
+p {
+	text-align: justify;
+	text-align: center;
+}
+#nav {
+	padding: 0; 
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+	color: black;
+}
+#nav li {
+	display: inline-block;
+	list-style: none;
+	width: auto;
+	height: 20px;
+	color: black;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+	color: black;
+}
+.images {
+	padding: 50px 0;
+	width: 100%;
+	position: relative;
+	background: white;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+}
+
+
+
+
